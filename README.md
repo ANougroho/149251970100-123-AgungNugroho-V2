@@ -1,1 +1,2 @@
-# 149251970100-123-AgungNugroho-V2
+# Nama : Agung Nugroho
+# ID Registrasi : 149251970100-123
