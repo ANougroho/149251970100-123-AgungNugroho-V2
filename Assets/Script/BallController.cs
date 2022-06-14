@@ -22,11 +22,17 @@ public class BallController : MonoBehaviour
             rig.velocity = speed * -1;
         }
     }
+
     public void ResetBall()
     {
         if (score.towardsPlayer == true)
         { rig.velocity = speed * -1;}
         else { rig.velocity = speed * 1; }
     transform.position = new Vector3(resetPosition.x, resetPosition.y, -5);
+    }
+
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
     }
 }
