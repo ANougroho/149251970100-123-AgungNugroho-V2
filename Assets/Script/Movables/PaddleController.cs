@@ -10,6 +10,7 @@ public class PaddleController : MonoBehaviour
     public KeyCode downKey;
     private Rigidbody2D rig;
 
+
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
